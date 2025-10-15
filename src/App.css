@@ -1,0 +1,84 @@
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#333;
+
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+
+}
+.nav ul li a{
+    color: #fff;
+}
+.main-content {
+    flex: 1;
+    padding: 2rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .footer {
+    padding: 1rem 5%;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    margin-top: auto;
+  }
+
+  /*Home-page 样式*/
+  .post-list {
+    display: grid;
+    gap:2rem;
+    margin-top: 2rem;
+  }
+  @media (min-width: 768px) {
+    .post-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .post-list {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  .post-item{
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .post-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-overview {
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  .read-more {
+    display: inline-block;
+    color: #646cff;
+    font-weight: 500;
+  }
+  
