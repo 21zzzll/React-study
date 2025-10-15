@@ -19,7 +19,7 @@ function App() {
       </main>
       <footer className="footer">
         <div>
-          <p>React-Blog &copy; 2023</p>
+          <p>React-Blog &copy; 2025</p>
         </div>
       </footer>    
     </div>
