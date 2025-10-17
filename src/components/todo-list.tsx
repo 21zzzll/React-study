@@ -1,5 +1,5 @@
-import TodoItem from './TodoItem'
-import type { Todo } from '../data/Type'
+import TodoItem from './todo-item'
+import type { Todo } from '../data/type'
 
 interface ToDoListParams {
   todos: Todo[]

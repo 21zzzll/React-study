@@ -1,7 +1,7 @@
-import AddTodo from '../components/AddTodo'
-import TodoList from '../components/TodoList'
-import TodoFilter from '../components/TodoFilter'
-import type { Todo } from '../data/Type'
+import AddTodo from '../components/add-todo'
+import TodoList from '../components/todo-list'
+import TodoFilter from '../components/todo-filter'
+import type { Todo } from '../data/type'
 import { useState } from 'react'
 
 //关于页-待办事项列表（

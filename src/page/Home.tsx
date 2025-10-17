@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Outlet } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import { blogPosts } from '../data/blogPosts' //引入模拟数据
-import type { BlogPost } from '../data/blogPosts' //引入类型
+import { blogPosts } from '../data/blog-posts' //引入模拟数据
+import type { BlogPost } from '../data/blog-posts' //引入类型
 
 const Home = () => {
   //通过useState 管理博客列表和搜索状态

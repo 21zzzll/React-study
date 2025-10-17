@@ -1,7 +1,7 @@
-import Home from '../page/Home'
-import Post from '../page/Post'
-import NotFound from '../page/NotFound'
-import About from '../page/About'
+import Home from '../page/home'
+import Post from '../page/post'
+import NotFound from '../page/not-found'
+import About from '../page/about'
 
 import { createBrowserRouter } from 'react-router-dom'
 import App from '../App'

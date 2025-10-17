@@ -1,16 +1,7 @@
-// const Post = () => {
-//   return (
-//     <div>
-//       <h1>我是文章页面</h1>
-//     </div>
-//   )
-
-// }
-// export default Post;
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
-import type { BlogPost } from '../data/blogPosts' // 类型导入
-import { blogPosts } from '../data/blogPosts' // 普通值导入
+import type { BlogPost } from '../data/blog-posts' // 类型导入
+import { blogPosts } from '../data/blog-posts' // 普通值导入
 import useFetch from '../hooks/useFetch' // 引入自定义 Hook
 
 const Post = () => {
